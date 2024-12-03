@@ -28,10 +28,10 @@ export default () => {
               <h2 className="text-3xl font-semibold mb-3 text-purple-600">
                 {user.name}
               </h2>
-              <p className="flex items-center gap-1 ">
+              <p className="flex items-center gap-1  ">
                 {" "}
                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAndJREFUSEvtlktoE1EUhv8ziRUXojTJpEF8rAWpzUQpbnShOx8gggh1oZsSzAxCN7YukqJFF0JkUihuBLEgggg+drrozkoyCSK6E0UQm0ys2E2xJnN0kpmYhLyaDsmms7t3zv9/55577swl9OmhPnGxCe5Z5WtKrYb0cYH5GgP7nMyAgC8G4YaSEu/bvhWwekg/SgYvOAms9xIE4fCVpDdpzv8HB3NTRJgpBRNPO5oAU9Tym5Q18XYNOBHKxmAHMF+U0/55J+CJYHYMRA/tBckpf6w5GACD5pZXvVdjH2mtmwRi+3lgcFv+LoHDFT3xdFuwFZxxF4RT4Xfeb+uBzw3ndxXcxgsAIzW6tmCieTCPWaIfRHwhkvK/6gQ+G8qeYKZHADzl8lZ5NQQH9SiIS/WXNZFUKacQcAfAFgAGA1FZ883Qv6BGCTCYEpJ+nQCzMQUAfwBMyJqYSEi5sqYTsBmnBpdGiYTnAHwlIdPrAXKdG9cGf1XD70nLO9a4+ATEx63578zGWSU9tGiOW4OrutpcsW0cl/SAG/wUwGh5jr8CfFLWht6XTZcOAPQSoD2WZpGN4mklE9Btj67Apjh2jN2eFT0OQsQy+w3QZSsR82u01Toian67byK2QIXqinQNrmQezJ0H4YENqjJfBeOSnBYfN9r/DYNL+z6SHSZBeAbwXgvyiYTimUgy8KFZ1zsCNs3jB3/udAkFlYgNdrsU5a1npRm06+ZqZdjpO8dW3Clww129XlB9fMsVqz34LRIwFdHEW9bRK+fXi4sAGXwkkvG/qQGbg1kpG2bQJIDdGy1vnf4zE242vPo4DGprt3mvblsipwL6Vuq/OtZALn40VK8AAAAASUVORK5CYII=" />
-              <span className=" text-sm font-semibold">Email</span> : {user.email}
+              <span className=" text-md  text-purple-600 ">{user.email}</span> 
               </p>
             </div>
 
